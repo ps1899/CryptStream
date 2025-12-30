@@ -67,6 +67,14 @@ make all
 - POSIX-compliant system (Linux, macOS)
 - Make build system
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Created by [ps1899](https://github.com/ps1899)
