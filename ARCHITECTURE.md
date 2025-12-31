@@ -247,14 +247,6 @@ For large files: Processing_Time_Saved > Overhead
 - Permission denied: Return false, log error
 - Disk full: Exception propagated to caller
 
-## Future Enhancements
-
-1. **Batch Processing**: Multiple files in single run
-2. **AES Encryption**: Replace XOR with industry-standard algorithm
-3. **Progress Reporting**: Real-time status updates
-4. **Dynamic Pool Sizing**: Adjust workers based on load
-5. **Network Support**: Distributed processing across machines
-
 ## References
 
 - POSIX Shared Memory: `man shm_overview`
