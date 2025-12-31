@@ -119,18 +119,18 @@ Main Process                    Worker Processes
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      Main Process                            │
-│                                                              │
-│  1. Create shared memory                                     │
-│  2. Initialize task queue                                    │
-│  3. Create semaphores                                        │
-│  4. Fork worker processes                                    │
+│                      Main Process                           │
+│                                                             │
+│  1. Create shared memory                                    │
+│  2. Initialize task queue                                   │
+│  3. Create semaphores                                       │
+│  4. Fork worker processes                                   │
 │  5. Enqueue tasks                                           │
 │  6. Post task_sem (signal workers)                          │
 │  7. Wait on done_sem (block until complete)                 │
-│  8. Signal shutdown                                          │
+│  8. Signal shutdown                                         │
 │  9. Wait for workers to exit                                │
-│  10. Cleanup resources                                       │
+│  10. Cleanup resources                                      │
 └─────────────────────────────────────────────────────────────┘
                            │
                            ▼
