@@ -1,0 +1,49 @@
+# Build artifacts
+/build/
+/bin/
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+*.pdb
+*.ilk
+*.tbd
+
+# Dependency files
+*.d
+
+# Coverage/profiling
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+# Logs and temp files
+*.log
+*~
+
+# Test artifacts
+/test_files/
+
+# IDE/editor and OS metadata
+.vscode/
+.idea/
+.cache/
+.clangd/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Tooling outputs
+compile_commands.json
